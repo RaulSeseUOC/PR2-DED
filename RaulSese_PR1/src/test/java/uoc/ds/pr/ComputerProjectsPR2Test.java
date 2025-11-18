@@ -416,7 +416,7 @@ public class ComputerProjectsPR2Test {
     }
 
     @Test
-    public void getAllDoneTakssByOperatorTest() throws DSException {
+    public void getAllDoneTasksByOperatorTest() throws DSException {
         doTaskByOperatorTest();
 
         Assert.assertThrows(NoCompletedTasksException.class, () -> {
